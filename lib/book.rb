@@ -2,7 +2,7 @@ class Book
   attr_accessor :author, :page_count, :assert_generates
   attr_reader :title
   
-  def initilize(title)
+  def initialize(title)
     @title =  title
   end
   
