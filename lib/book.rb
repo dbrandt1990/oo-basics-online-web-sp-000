@@ -3,7 +3,7 @@ class Book
     @title =  title
   end
   def turn_page
-    @title
+    puts ""
   end
 end
 
