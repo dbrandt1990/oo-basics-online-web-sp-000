@@ -1,9 +1,10 @@
 class Book
+  attr_accessor :author, :page_count, :assert_generates
   def initilize(title)
     @title =  title
   end
   def turn_page
-    puts ""
+    puts "Flipping the page...wow, you read fast!"
   end
 end
 
