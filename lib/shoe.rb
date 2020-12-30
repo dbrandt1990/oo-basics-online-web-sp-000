@@ -8,6 +8,6 @@ class Shoe
   end
   
   def cobble 
-    
+    puts "The Show"
   end
 end
